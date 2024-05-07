@@ -3,6 +3,7 @@ import { Card } from './components/Card'
 import produtos from './constants/produtos.json'
 import { api } from "./api/rmApi"
 import style from './App.module.css'
+import { Map } from './components/Map'
 
 function App() {
   const [show, setShow] = useState("")
@@ -67,7 +68,7 @@ function App() {
         <>
       <h2>Mapa</h2>
           <div>
-              mapa aqui
+            <Map/>
           </div>
          </>
       }
