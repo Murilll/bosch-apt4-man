@@ -19,3 +19,39 @@
   padding: 10px;
   background-color: rgb(47, 47, 47);
 }
+
+.Ctn_Card {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.lil_Ball {
+  background-color: red;
+
+  width: 20px;
+  height: 20px;
+
+  border-radius: 100%;
+  margin-left: 1rem;
+}
+
+.lil_Ball_On {
+  background-color: rgb(38, 225, 38);
+
+  width: 20px;
+  height: 20px;
+
+  border-radius: 100%;
+  margin-left: 1rem;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+}

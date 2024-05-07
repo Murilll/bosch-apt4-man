@@ -4,6 +4,7 @@ import { useState } from "react";
 export const Card = (props) => {
   return (
     <div className="Ctn_background">
+      <h1>{props.category}</h1>
       <h1>{props.name}</h1>
       <div className="Ctn_Balls">
         <h2>{props.desc}</h2>
