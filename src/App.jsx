@@ -13,7 +13,7 @@ function App() {
 
 
   useEffect(() => {
-    api.get(`/character/?page=${page}`).then((response) => {
+    api.get(`/character/?page=${page}&name=${name}`).then((response) => {
       if (!response.data.results) {
         console.log("Vazio")
       }
@@ -25,7 +25,7 @@ function App() {
       }      
       console.error(error)
     })
-  }, [page], name)
+  }, [page, name])
 
   return (
     <>
@@ -67,7 +67,7 @@ function App() {
               <input type="text" placeholder="1/43" value={page} onChange={(event) => setPage(event.target.value)} />
             </div>
             <div>
-              <input type="text" placeholder="Name" value={page} onChange={(event) => setName(event.target.value)} />
+              <input type="text" placeholder="Name" value={name} onChange={(event) => setName(event.target.value)} />
             </div>
             <div className={style.containerAPI}>
               {data.map((item) => {
