@@ -3,6 +3,8 @@
     "id": 1,
     "name": "Perfume",
     "desc": "Miguel Rousseouf",
+    "categ": "categoria",
+    "status": true,
     "value": "100.00",
     "image": "https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/volarium/catalog/produtos/volarium/perfume/perfume-feminino/perfume-feminino-ch-tradicional-importado-original.jpg"
   },
@@ -10,6 +12,35 @@
     "id": 2,
     "name": "Colar",
     "desc": "Jand Karno em perolas",
+    "categ": "categoria",
+    "status": true,
+    "value": "2200.00",
+    "image": "https://cdn.awsli.com.br/600x450/1537/1537341/produto/152389745/01e29e7fcc.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Anel",
+    "desc": "Diamante Shawish",
+    "categ": "categoria",
+    "status": false,
+    "value": "70 mi",
+    "image": "https://cdn.awsli.com.br/600x450/1537/1537341/produto/152389745/01e29e7fcc.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Relógio",
+    "desc": "Jand Karno em perolas",
+    "categ": "categoria",
+    "status": false,
+    "value": "2200.00",
+    "image": "https://cdn.awsli.com.br/600x450/1537/1537341/produto/152389745/01e29e7fcc.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Corrente",
+    "desc": "Jand Karno em perolas",
+    "categ": "categoria",
+    "status": true,
     "value": "2200.00",
     "image": "https://cdn.awsli.com.br/600x450/1537/1537341/produto/152389745/01e29e7fcc.jpg"
   }

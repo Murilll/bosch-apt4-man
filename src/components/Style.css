@@ -1,0 +1,29 @@
+.Ctn_background {
+    background-color: rgb(42, 42, 42);
+}
+
+.lil_Ball {
+    background-color: red;
+
+    width: 20px;
+    height: 20px;
+
+    border-radius: 100%;
+    margin-left: 1rem;
+}
+
+.lil_Ball_On {
+    background-color: rgb(38, 225, 38);
+
+    width: 20px;
+    height: 20px;
+
+    border-radius: 100%;
+    margin-left: 1rem;
+}
+
+.Ctn_Balls {
+    display: flex;
+
+    align-items: center;
+}
